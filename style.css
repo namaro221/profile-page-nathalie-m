@@ -1,0 +1,102 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+body{
+    font-family:"Roboto", sans-serif;
+    font-weight : lighter; 
+    color:black; 
+    font-size: 18px; 
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+
+h2{
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin: 100px;
+    color: #69385C;
+    text-shadow: 0 10px 20px rgba(105, 56, 92, 0.5);
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+    font-weight: 600;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none; 
+}
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+
+#intro{
+    margin-bottom: 50px;
+}
+
+#nathalie-picture{
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.btn-purple{
+    background-color: #69385C;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+a:hover{
+    background-color: #D4ADCF;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .list-inline li {
+    display: inline;
+    margin: 20px;
+  }
+  
+  .list-inline i {
+    font-size: 50px;
+    color: grey;
+    letter-spacing: 30px;
+  }
+  
+  .list-inline i:hover {
+    color: #D4ADCF;
+  }
+
+.card-white{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(105, 56, 92, 0.5);
+    border: 2px solid #DDE0BD;
+}
+
+.container{
+    width: 700px;
+    margin: 10px auto;
+}
+
